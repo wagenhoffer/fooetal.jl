@@ -22,10 +22,8 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        version:
-          - '1.6'
+        version:          
           - '1.9'
-          - 'nightly'
         os:
           - ubuntu-latest
         arch:
